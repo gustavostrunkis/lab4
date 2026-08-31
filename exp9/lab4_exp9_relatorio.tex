@@ -117,7 +117,7 @@ sorting=none,
 		\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}X|}
 			\hline
 			Medida & $p ~$ (cm) & $p' ~$ (cm) & $f ~$ (cm) & Valor médio: $f_m = ~$ cm \\ \hline
-			1 & $13.40$ & $23.00$ & $8.47$ & \multirow{2}{*}{\makecell[c]{Valor experimentalmente\\ obtido para $f_{DIV} = ~$ cm}}\\ \cline{1-4}
+			1 & $13.40$ & $23.00$ & $8.47$ & \multirow{2}{*}{\makecell[c]{Valor experimentalmente\\ obtido para $f_\text{DIV} = ~$ cm}}\\ \cline{1-4}
 			2 & $15.00$ & $21.40$ & $8.82$ &  \\ \hline
 		\end{tabularx}
 	\end{flushleft}
@@ -136,16 +136,25 @@ sorting=none,
 	
 	\subsection*{Resposta 2}
 	
+	Partimos da equação: $$\frac{1}{f} = \frac{1}{p} + \frac{1}{p'}.$$ Isolamos o termo $1/p'$ e linearizamos a equação utilizando: $$Y = A \cdot X + B, \qquad Y = \frac{1}{p'}, \qquad X = \frac{1}{p}, \qquad B = \frac{1}{f}.$$
 	
+	Plotando o gráfico (\ref{fig:graphic1}), obtivemos $B = 0.0510427893181809 ~1/\mathrm{cm}$. Logo, $f = 1/B \approx 19.59 ~$ cm.
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\textwidth]{graphic1.png} % ou o nome do arquivo da sua imagem
+		
+		\caption{} % TEXTO INFERIOR À IMAGEM
+		
+		\label{fig:graphic1}  % LABEL/IDENTIFICADOR DA IMAGEM (DEVE SER ÚNICO E FICAR ABAIXO DE \caption)
+	\end{figure}
+	
+	Como o valor indicado pelo fabricante é $f = 20 ~$ cm, com incerteza da ordem de $10^1 ~$ cm, podemos dizer que o resultado obtido está de acordo com o esperado.
 	
 	\subsection*{Questão 3}
 	
 	\sout{3. (a) Calcule o valor médio da distância focal da lente com os dados da Tabela III e compare-o ao valor nominal, anotado na lente. (b) Ao fazer as medidas da Tabela III, você deve ter percebido que a distância D possui um valor mínimo (obtido quando $d = 0$) abaixo do qual não se pode formar uma imagem nítida no anteparo. De acordo com a equação (12), qual deve ser este valor mínimo para uma dada distância focal $f$? (c) Compare os valores mínimos teórico e experimental de $D$. O teórico é aquele previsto pela equação (12), usando o valor nominal de $f$. O experimental é o valor de $D$ medido quando $d = 0$.} \textcolor{red}{(Conforme instruído, a tabela III não foi preenchida.)}
-	
-	\subsection*{Resposta 3}
-	
-	
-	
+
 	\subsection*{Questão 4}
 	
 	4. (a) Explique a necessidade de se acoplar uma lente convergente à lente divergente para determinar a distância focal da última. (b) Compare o valor medido de $f_{\text{DIV}}$ com o valor nominal.
