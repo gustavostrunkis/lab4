@@ -16,5 +16,22 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{EM006}{misc}{}{}
+      \list{location}{1}{%
+        {Florianópolis}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Roteiro de Relatório}
+      \field{note}{Laboratório de Física IV (FSC2144), Departamento de Física, CFM, UFSC.}
+      \field{title}{Exp. 9 Espelhos e Lentes}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
