@@ -29,6 +29,8 @@ sorting=none,
 \setlength\bibhang{\labelnumberwidth}% deslocamento das linhas seguintes
 \setlength\biblabelsep{0.5em}% distância entre “[1]” e o começo do texto
 
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
 \nocite{*}
 
 \addbibresource{lab4_exp9_relatorio.bib}
@@ -85,13 +87,31 @@ sorting=none,
 	\section{RESULTADOS}
 	\subsection{Tabelas}
 	
+	\begin{flushleft}
+		{TABELA 1 - Espelho \enquote{A}} \\ [0.5cm]
+		\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
+			\hline
+			Posição anteparo & $p ~$ (cm) & $i ~$ (cm) & $o ~$ (cm) & $M = i/o$ & $f ~$ (cm) \\ \hline
+			1 & $49.70$ & $-3.10$ & $3.00$ & $-1.03$ & $25.22$ \\ \hline
+			2 & $55.70$ & $-2.50$ & $3.00$ & $-0.83$ & $25.26$ \\ \hline
+			3 & $62.60$ & $-2.10$ & $3.00$ & $-0.70$ & $25.78$ \\ \hline
+		\end{tabularx}
+	\end{flushleft}
+	
 	
 	\section{QUESTIONÁRIO}
 	\subsection*{Questão 1}
-	
+	1. (a) Calcule o valor médio da distância focal do espelho côncavo com os dados da Tabela I. Compare com o valor nominal anotado no espelho, observando as precisões do valor fornecido pelo fabricante e do valor médio obtido. (b) Levando em conta os dados da Tabela I, descreva como varia o tamanho $i$ da imagem à medida que o espelho côncavo se afasta do objeto. O comportamento observado corresponde à previsão teórica. (?)
 	
 	\subsection*{Resposta 1}
 	
+	O valor médio obtido para o ponto focal ($\bar{f}$) obtido foi: $\bar{f} = 25.42 ~$ cm.
+	
+	\subsection*{Questão 2}
+	
+	2. (a) Faça o gráfico de $1/p'$ em função de $1/p$ com os dados da Tabela II. (b) Calcule os coeficientes angular e linear pelo método da regressão linear e, a partir deles, ache $f$. (c) Compare o valor obtido de $f$ ao valor nominal fornecido pelo fabricante.
+	
+	\subsection*{Resposta 2}
 	
 	\section{CONCLUSÃO}
 	
